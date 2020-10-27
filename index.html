@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeannette_webdeveloper</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+        <div class="centered"><h1 class="k">Jeannette Uwamahoro</h1></div>
+    </div>
+
+  <div class="topnav" id="myTopnav"   >
+  <a class="active" href="home.html">Home</a>
+  <a href="abt.html">About US</a>
+  <a href="cont.html">Contact Us</a>
+  <a href="services.html">Services</a>
+  
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+  </div>
+        <div class="w3-content w3-section" >
+                <img class="mySlides" src="img/1.jpg" style="width:100%">
+                <img class="mySlides" src="img/5.jpg" style="width:100%">
+                <img class="mySlides" src="img/4.jpg" style="width:100%">
+            </div>
+            <script>
+              function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                      x.className += " responsive";
+                  } else {
+                      x.className = "topnav";
+                  }
+              }
+              </script>
+           <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2500); 
+                }
+                </script>
+
+ 
+    <a href="#" class="btn">learn more</a>
+</div>   
+</div>  
+</header>  
+</body>
+</html>
