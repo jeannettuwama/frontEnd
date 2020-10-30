@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeannette_webdeveloper</title>
+    <link rel="stylesheet" href="../styles/index.css">  
+    <link rel="stylesheet" href="../styles/service.css">
+</head>
+<body>
+  <div class="topnav" id="myTopnav"   >
+  <a href="../index.html">Home</a>
+  <a href="about.html">About US</a>
+  <a href="../pages/contact.html">Contact Us</a>
+  <a class="active" href="../services.html">Services</a>
+  <a href="../pages/blog.html">Blog</a>
+  <a href="../pages/login.html">Login</a>
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+  </div>
+  
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+    <table>
+        <tr>
+            <th>Services</th>
+            <tr>
+                <td><a href="#"><img class="pi" src="../assets/5.png"></td>
+                </a>
+            
+                <td class="w">  this lesson i will introduce you to<h3>Header</h3>and <h3>Paragraph</h3>Tags.
+                <br>webpages use Headers to identify main topics.<br>
+                Header tags run from h1> trough h6>.
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://techterms.com/definition/css"><img class="pic" src="../assets/7.png"></td>
+                </a>
+                    <td class="s">In this lesson i will be presenting how to create a such layout. <br>
+                    Css is used to format the margins, text, and positioning of the <br>
+                    content.</td>
+            </tr>
+        
+    </table>
+    </body>
+</html>

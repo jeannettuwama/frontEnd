@@ -1,0 +1,39 @@
+.m{
+    text-align: center;
+    margin-left: 70px;
+}
+.t{
+    float: right;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.table{
+
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.a{
+    float:left;
+}
+.login-box h1{
+font-size: 40px;
+color: blue;
+margin-bottom: 50px;
+padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px  solid blue;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    color: black;
+    background: rgb(238, 226, 226);
+
+}

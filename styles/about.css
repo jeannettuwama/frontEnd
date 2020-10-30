@@ -1,0 +1,42 @@
+
+
+
+.s{
+    font-size: 20px;
+    margin-top: 30px;
+ 
+    
+    background-color: grey;
+  
+  }  
+  .t{
+      border-radius: 10000px;
+  }
+
+
+#f{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .table table:not(:first-child) {display: block;}
+    .table table {
+      float: left;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .table.responsive table{position: relative;}
+    .table.responsive  table{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .table.responsive table {
+      float: left;
+      display: block;
+      text-align: left;
+    }
+  }
